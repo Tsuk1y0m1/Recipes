@@ -1,0 +1,66 @@
+:root {
+    --container: rgba(255, 255, 255, 0.301);
+    --text-color: rgba(245, 235, 235, 0.904);
+    --background-gr: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    text-decoration: none;
+}
+body {
+    margin: 2em 7em 3em;
+    background-image: var(--background-gr);
+}
+
+.container {
+    background-color: var(--container);
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 3rem;
+    font-family: Copperplate, Fantasy ;
+    word-spacing: 10px;
+    letter-spacing: 6px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    border: var(--text-color) solid 3px;
+}
+
+.img {
+    width: 100%;
+    text-align: center;
+}
+
+.text {
+    text-align: justify;
+    margin: 0 2em;
+    font-size: 1.5rem;
+}
+
+.text * {
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+ol {
+    padding-bottom: 1em;
+}
